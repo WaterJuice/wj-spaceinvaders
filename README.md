@@ -7,20 +7,20 @@ Classic Space Invaders game for the terminal, rendered using ANSI 24-bit colour 
 ## Installation
 
 ```bash
-uv sync
+pip install wj-spaceinvaders
 ```
 
 ## Usage
 
 ```bash
-# Run via entry point
-uv run wj-spaceinvaders
+# Run the game
+wj-spaceinvaders
 
 # Or via module
-uv run python -m wj_spaceinvaders
+python -m wj_spaceinvaders
 
 # Show version
-uv run wj-spaceinvaders --version
+wj-spaceinvaders --version
 ```
 
 ## Controls
@@ -55,6 +55,7 @@ make check        # Format check + lint
 make format       # Auto-format code
 make lint         # Run pyright type checker
 make build        # Build wheel
+make publish      # Publish to PyPI
 ```
 
 ## Licence

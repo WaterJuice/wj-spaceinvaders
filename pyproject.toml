@@ -18,7 +18,7 @@ authors = [
 ]
 keywords = ["game", "wj-spaceinvaders", "terminal", "ansi", "console"]
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 5 - Production/Stable",
     "Environment :: Console",
     "Intended Audience :: End Users/Desktop",
     "License :: OSI Approved :: The Unlicense (Unlicense)",
@@ -27,6 +27,9 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
     "Topic :: Games/Entertainment :: Arcade",
 ]
+
+[project.urls]
+Homepage = "https://pypi.org/project/wj-spaceinvaders/"
 
 [project.scripts]
 wj-spaceinvaders = "wj_spaceinvaders.cli:main"

@@ -63,7 +63,10 @@ def _main_inner(argv: list[str]) -> int:
     """Inner main function."""
     parser = argparse.ArgumentParser(
         prog="wj-spaceinvaders",
-        description="Classic Space Invaders for the terminal — ANSI colour and Unicode half-block graphics.",
+        description=(
+            "Classic Space Invaders for the terminal — ANSI colour and Unicode"
+            " half-block graphics."
+        ),
     )
     parser.add_argument(
         "--version",

@@ -111,10 +111,10 @@ class Game:
 
             if cols < MIN_COLS or rows < MIN_ROWS:
                 term.write(
-                    f"\033[H\033[2J"
+                    "\033[H\033[2J"
                     f"Terminal too small! Need at least {MIN_COLS}x{MIN_ROWS}, "
                     f"got {cols}x{rows}.\r\n"
-                    f"Press any key to exit.\r\n"
+                    "Press any key to exit.\r\n"
                 )
                 while not term.read_key():
                     time.sleep(0.05)

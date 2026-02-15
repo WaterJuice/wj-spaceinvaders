@@ -70,6 +70,7 @@ make help       # Show all available targets
 make check      # Run ruff + pyright
 make format     # Auto-fix and format code
 make build      # Build wheel into output/
+make publish    # Publish output/ to PyPI
 make clean      # Remove build artefacts
 make dev        # Just create dev (.venv) setup
 ```
