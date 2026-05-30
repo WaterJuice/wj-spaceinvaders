@@ -1,3 +1,7 @@
+# wj-spaceinvaders 1.0.1 - 30 May 2026
+
+Moved to new GitHub location: https://github.com/WaterJuice/wj-spaceinvaders
+
 # wj-spaceinvaders 1.0.0 - 15 Feb 2026
 
 Initial release.

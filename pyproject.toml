@@ -29,7 +29,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://pypi.org/project/wj-spaceinvaders/"
+Source = "https://github.com/WaterJuice/wj-spaceinvaders"
 
 [project.scripts]
 wj-spaceinvaders = "wj_spaceinvaders.cli:main"
@@ -63,7 +63,7 @@ typeCheckingMode = "strict"
 reportUnusedImport = "error"
 pythonVersion = "3.14"
 
-[tool.cal-publish-python]
+[tool.wj-publish]
 profile = "waterjuice"
 
 [dependency-groups]
@@ -71,5 +71,5 @@ dev = [
     "ruff",
     "black",
     "pyright[nodejs]",
-    "cal-publish-python",
+    "wj-publish",
 ]
