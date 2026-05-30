@@ -31,7 +31,7 @@ build: check-dependencies format-check lint version
 # Publish to PyPI
 .PHONY: publish
 publish: check-dependencies
-	uv run wj-publish output/
+	uv run wj-publish --pypi-only output/
 
 # Clean build artefacts
 .PHONY: clean
